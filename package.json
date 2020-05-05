@@ -1,0 +1,30 @@
+{
+  "name": "lim012-fe-md-links",
+  "version": "0.0.1",
+  "description": "proyecto con node",
+  "main": " ./src/mdLinks.js " ,
+  "scripts": {
+    " test " : "jest --coverage " ,
+    "lint" : " eslint '** / *. js' --ignore-pattern node_modules / "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jael-VRR/LIM012-fe-md-links.git"
+  },
+  "author": "jael",
+  "license": "ISC",
+  " bin " : {
+    " md-links " : " ./src/cli.js "
+  },
+  "bugs": {
+    "url": "https://github.com/jael-VRR/LIM012-fe-md-links/issues"
+  },
+  "homepage": "https://github.com/jael-VRR/LIM012-fe-md-links#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.4.0"
+  },
+  "dependencies": {
+    "mocha": "^7.1.2"
+  }
+}
