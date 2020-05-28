@@ -78,13 +78,13 @@ $ md-links 'data/try.md' --validate
 
   HREF: https://nodejs.org/es/about/
   TEXT: Acerca de Node.js - Documentación oficial
-  PATH: C:\\Users\\Estudiante\\Desktop\\LIM012-fe-md-links\\test\\data2\\hoja.txt
+  PATH: C:/user/jael/desktop/test/data2/try.md
   STATUS: 200
   STATUSTEXT: OK
 
   HREF: https://nodejs.org/api/http.html#http_http_get_options_callback
   TEXT: Node.js http.get - Documentación oficial
-  PATH: C:\\Users\\jael\\Desktop\\LIM012-fe-md-links\\test\\data2\\hoja.txt
+  PATH: C:/user/jael/desktop/test/data2/try.md
   STATUS:404
   STATUSTEXT: fail
 ```
