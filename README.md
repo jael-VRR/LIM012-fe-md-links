@@ -3,20 +3,11 @@
 
 ## **Diagramas de Flujo**
 
-![Diagrama de flujo api](./src/image/flujo3.png)
+![Diagrama de flujo api](./src/image/flujo3.jpg)
 
-![Diagrama de flujo cli](./src/image/flujo2.png)
+![Diagrama de flujo cli](./src/image/flujo2.jpg)
 
-## **Instalación**
 
- **Global**
-```javascript
-npm install -g git://github.com/jael-VRR/LIM012-fe-md-links
-```
- **Local**
-```javascript
-npm install git://github.com/jael-VRR/LIM012-fe-md-links
-```
 ## **Modo de uso**
 
 **JAVASCRIPT API**
