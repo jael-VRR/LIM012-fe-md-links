@@ -3,7 +3,7 @@
 
 ## **Diagramas de Flujo**
 
-![Diagrama de flujo api](./src/image/flujo3.jpg)
+![Diagrama de flujo api](./src/image/flujo1.jpg)
 
 ![Diagrama de flujo cli](./src/image/flujo2.jpg)
 
