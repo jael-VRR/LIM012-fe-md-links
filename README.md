@@ -98,7 +98,7 @@ Si pasamos la opción `--stats` el output (salida) será un texto con estadísti
 básicas sobre los links.
 
 ```javascript
-$ md-links 'data/try.md' --stats
+$ md-links 'data/trny.md' --stats
    TOTAL: 10
    UNIQUE: 10
 ```
