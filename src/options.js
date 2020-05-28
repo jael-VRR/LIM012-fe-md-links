@@ -23,7 +23,7 @@ const statsAndValidate = (ruta) => {
 return addValidate(ruta).then(links =>{
   const uniqueLinks = new Set(links.map((e) => e.href));
   //console.log(uniqueLinks);
-  const brokenLinks = links.filter((e) => e.statustext === 'fail');
+  const brokenLinks = links.filter((e) => e.statustext === 'fail'); // guarda segun booleano
   return(`
    Total : ${links.length} 
    Unique: ${uniqueLinks.size}  

@@ -3,9 +3,9 @@
 
 ## **Diagramas de Flujo**
 
-![DF-API](src/img/flujo3.png)
+![Diagrama de flujo api](src/image/flujo3.png)
 
-![DF-CLI](src/img/flujo2.png)
+![Diagrama de flujo cli](src/image/flujo2.png)
 
 ## **Instalación**
 
@@ -19,7 +19,7 @@ npm install git://github.com/jael-VRR/LIM012-fe-md-links
 ```
 ## **Modo de uso**
 
-✒️**JAVASCRIPT API**
+**JAVASCRIPT API**
 
 - **Importa como módulo**
 ```javascript
@@ -61,23 +61,15 @@ manera a través de la terminal:
 md-links <path-to-file> [options]
 ```
 
-|                Instrucciones                  |
-| ----------------------------------------------|
-|⚠️md-links `<path-to-file>`                       |
-|⚠️md-links `<path-to-file>` --validate        |
-|⚠️md-links `<path-to-file>` --stats               |
-|⚠️md-links `<path-to-file>` --stats --validate |
-
-Por ejemplo:
 
 
 ####  Sin opciones
 
 ```javascript
-$ md-links 'probando/README.md'
+$ md-links 'data/try.md.'
   ◾️HREF: https://www.flaticon.es/
   ◾️TEXT: Este es el link
-  ◾PATH: C:\Users\LUCY\Desktop\Lista-Tareas\probando\README.md
+  ◾PATH: C:\Users\jael\Desktop\test\data\try.md
 ```
 
 

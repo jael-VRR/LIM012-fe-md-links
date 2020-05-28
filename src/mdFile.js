@@ -61,7 +61,7 @@ const extraerLinks = (ruta) => {
       const newRouteAbsolute = convertPathAbsolute(ruta);
       let arrLinks = [];
       const renderer = new marked.Renderer();
-      searchPathFiles(newRouteAbsolute).forEach((file) => {
+      searchPathFiles(newRouteAbsolute).forEach((file) => {    //ejecuta acción por cada elemento
         renderer.link = (href, title, text) => {
           const propLink = {
             href,
@@ -80,7 +80,7 @@ const extraerLinks = (ruta) => {
 
   const addValidate = (ruta) => {
     const prueba =extraerLinks(ruta);
-    const arrayPromise = prueba.map((e) => new Promise((resolve) => fetch(e.href)
+    const arrayPromise = prueba.map((e) => new Promise((resolve) => fetch(e.href)  // modifica y guarda 
       .then((resp) => {
         e.status = resp.status;
         (resp.status >= 200 && resp.status < 400) ? e.statustext = 'ok' : e.statustext = 'fail';
