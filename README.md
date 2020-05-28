@@ -3,9 +3,9 @@
 
 ## **Diagramas de Flujo**
 
-![Diagrama de flujo api](src/image/flujo3.png)
+![Diagrama de flujo api](./src/image/flujo3.png)
 
-![Diagrama de flujo cli](src/image/flujo2.png)
+![Diagrama de flujo cli](./src/image/flujo2.png)
 
 ## **Instalación**
 
@@ -58,7 +58,7 @@ El ejecutable de nuestra aplicación se puede  ejecutar de la siguiente
 manera a través de la terminal:
 
 ```
-md-links <path-to-file> [options]
+md-links <ruta del archivo> [opciones]
 ```
 
 
@@ -67,9 +67,9 @@ md-links <path-to-file> [options]
 
 ```javascript
 $ md-links 'data/try.md.'
-  ◾️HREF: https://www.flaticon.es/
-  ◾️TEXT: Este es el link
-  ◾PATH: C:\Users\jael\Desktop\test\data\try.md
+  HREF: https://nodejs.org/es/about/
+  TEXT: Node.js http.get - Documentación oficial
+  PATH: C:\Users\jael\Desktop\test\data\try.md
 ```
 
 
@@ -85,15 +85,15 @@ URL que responde ok, entonces consideraremos el link como ok.
 ```javascript
 $ md-links 'data/try.md' --validate
 
-  HREF: https://www.flaticon.es/
-  TEXT: Este es el link
-  PATH: C:\Users\jael\Desktop\test\data\try.md
+  HREF: https://nodejs.org/es/about/
+  TEXT: Acerca de Node.js - Documentación oficial
+  PATH: C:\\Users\\Estudiante\\Desktop\\LIM012-fe-md-links\\test\\data2\\hoja.txt
   STATUS: 200
   STATUSTEXT: OK
 
-  HREF: https://lms.laboaaaaaratoria.l/
-  TEXT: Este es el link no existe
-  PATH: C:\Users\jael\Desktop\test\data\try.md
+  HREF: https://nodejs.org/api/http.html#http_http_get_options_callback
+  TEXT: Node.js http.get - Documentación oficial
+  PATH: C:\\Users\\jael\\Desktop\\LIM012-fe-md-links\\test\\data2\\hoja.txt
   STATUS:404
   STATUSTEXT: fail
 ```
@@ -108,8 +108,8 @@ básicas sobre los links.
 
 ```javascript
 $ md-links 'data/try.md' --stats
-  ✔️  TOTAL: 5
-  ✔️  UNIQUE: 5
+   TOTAL: 5
+   UNIQUE: 5
 ```
 
 ##### Opción `--stats` y --validate
@@ -120,9 +120,9 @@ necesiten de los resultados de la validación.
 
 ```javascript
 $ md-links 'data/prueba1.md' --stats --validate
-  ✔️  TOTAL: 5
-  ✔️  UNIQUE: 5
-  ❌  BROKEN: 1
+   TOTAL: 5
+   UNIQUE: 5
+   BROKEN: 1
 ```
 
 
