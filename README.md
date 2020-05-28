@@ -60,7 +60,7 @@ md-links <ruta del archivo> [opciones]
 $ md-links 'data/try.md.'
   HREF: https://nodejs.org/es/about/
   TEXT: Node.js http.get - Documentación oficial
-  PATH: C:\Users\jael\Desktop\test\data\try.md
+  PATH: C:/user/jael/desktop/test/data2/try.md
 ```
 
 
@@ -99,8 +99,8 @@ básicas sobre los links.
 
 ```javascript
 $ md-links 'data/try.md' --stats
-   TOTAL: 5
-   UNIQUE: 5
+   TOTAL: 10
+   UNIQUE: 10
 ```
 
 ##### Opción `--stats` y --validate
@@ -111,8 +111,8 @@ necesiten de los resultados de la validación.
 
 ```javascript
 $ md-links 'data/prueba1.md' --stats --validate
-   TOTAL: 5
-   UNIQUE: 5
+   TOTAL: 10
+   UNIQUE: 10
    BROKEN: 1
 ```
 
