@@ -5,7 +5,8 @@
   "main": "./src/mdLinks.js",
   "scripts": {
     "test": "jest --coverage",
-    "lint": " eslint '** / *. js' --ignore-pattern node_modules / "
+    "lint": " eslint '** / *. js' --ignore-pattern node_modules / ",
+    "name" : "echo jael"
   },
   "repository": {
     "type": "git",
@@ -20,11 +21,11 @@
     "url": "https://github.com/jael-VRR/LIM012-fe-md-links/issues"
   },
   "homepage": "https://github.com/jael-VRR/LIM012-fe-md-links#readme",
-  "devDependencies": {
+  "devDependencies": {  
     "eslint": "^6.8.0",
     "jest": "^25.4.0"
   },
-  "dependencies": {
+  "dependencies": { 
     "colors": "^1.4.0",
     "jsdom": "^16.2.2",
     "markdown": "^0.5.0",
